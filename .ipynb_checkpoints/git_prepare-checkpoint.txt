@@ -1,0 +1,12 @@
+sudo apt update && sudo apt install git -y
+git config --global user.name  "lonhai2018"
+git config --global user.email "hailong@szpu.edu.cn"
+git init
+git remote add origin https://github.com/lonhai2018/my_LangChain_study.git
+git pull origin main
+git add .
+git commit -m "描述这次改了什么"
+# 第一次
+git push -u origin main
+# 非第一次
+git push origin main

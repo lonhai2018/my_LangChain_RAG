@@ -1,0 +1,2 @@
+source ../LangChain_Deploy/my_langChain_venv/my_venv_first/bin/activate
+python -m ipykernel install --user --name my_venv_first --display-name "My_LangChain_Env"
